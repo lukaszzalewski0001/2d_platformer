@@ -1,0 +1,7 @@
+i,bg2,255,255,255,20,1,0
+g,blockspeed,2,12,1,1,speed1
+g,blockspeed,3,12,1,1,speed1
+g,blockspeed,4,12,1,1,speed2
+g,blockspeed,5,12,1,1,speed2
+g,blockjump,6,12,1,1,jmp1
+f,finish1,17,7
