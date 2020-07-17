@@ -14,18 +14,20 @@
     limitations under the License.
 '''
 
-import pygame
 import os
 
-import player
-import player_movement
+import pygame
+
+import ai
 import enemy
 import enemy_movement
-import ai
-import map
-import graphics
 import events
+import graphics
+import map
+import player
+import player_movement
 import weapon
+
 
 class Game:
     '''Main program class. Contains and initializes all of game main objects'''
@@ -33,7 +35,8 @@ class Game:
     def __init__(self):
         pygame.init()
 
-        self.map_path = input('Enter map\'s path: ')
+        # self.map_path = input('Enter map\'s path: ')
+        self.map_path = 'maps'
         self.__load_map_list(self.map_path)
         self.current_map = 0
 

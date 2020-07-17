@@ -1,3 +1,8 @@
 # 2d_platformer
 
-My first ever python project. A simple platformer game
+Controls:
+A - move left
+D - move right
+Space - jump
+LMB - shoot
+Mouse wheel - change weapon
